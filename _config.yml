@@ -1,2 +1,9 @@
+# Site's information
+title: Jekyll Demo
+description: This is a small website made with Jekyll
+
+
+# Build settings
 baseurl: /jekyll-demo
-exclude: ['README.md']
+exclude: ['README.md', 'node_modules']
+markdown: kramdown

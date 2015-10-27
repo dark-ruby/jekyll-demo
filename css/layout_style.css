@@ -1,0 +1,18 @@
+* {
+  color: lightcoral; }
+
+section {
+  margin: 20px 15px; }
+
+.current-highlight {
+  background-color: #393939;
+  color: #fff; }
+
+.top-nav {
+  font-size: 32px; }
+
+.article-date {
+  color: #ADADAD !important;
+  font-style: italic; }
+
+/*# sourceMappingURL=layout_style.css.map */

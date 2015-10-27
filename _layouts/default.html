@@ -6,15 +6,11 @@
     <meta name="viewport", content="width=device-width, initial-scale=1"/>
     <meta name="author", content="Steven To"/>
     <meta name="description", content="A beautiful website"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/layout_style.css">
   </head>
   <body>
 		
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html">HOME</a></li>
-				<li><a href="{{site.baseurl}}/page2.html">ABOUT</a></li>
-			</ul>
-		</nav>
+		{% include navbar.html navclass='top-nav' %}
 
 		{{content}}
 
