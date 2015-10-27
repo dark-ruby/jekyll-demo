@@ -6,4 +6,4 @@ description: This is a small website made with Jekyll
 # Build settings
 baseurl: /jekyll-demo
 exclude: ['README.md', 'node_modules']
-markdown: kramdown
+highlighter: pygments
